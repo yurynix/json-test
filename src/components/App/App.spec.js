@@ -6,6 +6,7 @@ import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
 import App from './App';
 import translation from '../../assets/locale/messages_en.json';
+import mocks from '../../../test/mocks.json';
 
 const i18nData = {
   lng: 'en',
